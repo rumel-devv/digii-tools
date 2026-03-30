@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes in minutes\nOptimized for ATS systems",
+    "price": 0,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume tools for professionals\nGet hired faster with premium templates",
+    "price": 9,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Premium templates",
+      "Cover letter generator",
+      "LinkedIn optimization"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "AI Content Writer",
+    "description": "Generate blog posts and copy instantly\nPerfect for marketers and bloggers",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "SEO optimization",
+      "Multi-language support",
+      "Plagiarism-free content"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 4,
+    "name": "Social Media Scheduler",
+    "description": "Plan and automate your social posts\nSave time and grow faster",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Auto posting",
+      "Analytics dashboard",
+      "Multi-platform support"
+    ],
+    "icon": "📅"
+  },
+  {
+    "id": 5,
+    "name": "AI Image Generator",
+    "description": "Create stunning images from text\nPerfect for designers and creators",
+    "price": 20,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "High-resolution output",
+      "Custom styles",
+      "Unlimited generations"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 6,
+    "name": "Website Builder",
+    "description": "Build websites without coding\nDrag and drop interface",
+    "price": 49,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Responsive design",
+      "Free hosting",
+      "Custom domain support"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Tool",
+    "description": "Send and manage email campaigns\nBoost your conversions",
+    "price": 10,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Email templates",
+      "Automation workflows",
+      "Subscriber analytics"
+    ],
+    "icon": "📧"
+  },
+  {
+    "id": 8,
+    "name": "AI Chatbot Builder",
+    "description": "Create smart chatbots for your website\nImprove customer support",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "No-code builder",
+      "24/7 automation",
+      "Integration with apps"
+    ],
+    "icon": "🤖"
+  },
+  {
+  "id": 9,
+  "name": "AI Video Editor",
+  "description": "Edit videos automatically with AI\nPerfect for YouTubers and content creators",
+  "price": 30,
+  "period": "monthly",
+  "tag": "new",
+  "tagType": "new",
+  "features": [
+    "Auto subtitles",
+    "Smart scene detection",
+    "One-click export"
+  ],
+  "icon": "🎬"
+}
+]
