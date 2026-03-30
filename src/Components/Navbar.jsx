@@ -1,7 +1,7 @@
 import { GiShoppingCart } from 'react-icons/gi';
 // import cartImg from '../assets/products/shopping-cart.png'
 
-const NavBar = ({carts,setCarts}) => {
+const NavBar = ({carts}) => {
 
  
 

@@ -1,18 +1,17 @@
-import React, { useState } from 'react';
+
 
 const ProductCard = ( {product,carts,setCarts}) => {
  
-  const [isBuy,setIsBuy] = useState(false)
 
   const handleBuyNow = () => {
-          setIsBuy(true)
+        
          setCarts([...carts,product])
   }
 
     return (
-        <div className="card w-full md:w-85 bg-base-100 shadow-sm">
+        <div className="card w-full max-w-sm bg-base-100 shadow-sm">
   <div className="card-body">
-    <div className='flex justify-end'><span className="badge badge-xs py-2 px-3 font-semibold text-white bg-[#6b29f8d6] "> {product.tagType} </span></div>
+    <div className='flex justify-end'><span className="badge badge-xs py-2 px-3 font-semibold text-white bg-[#8F18FA] "> {product.tagType} </span></div>
     <img className='w-8 h-8 border border-gray-300 rounded-full p-1' src={product.image} ></img>
     <div className='space-y-1'>
       <h2 className="text-xl font-semibold "> {product.name} </h2>
