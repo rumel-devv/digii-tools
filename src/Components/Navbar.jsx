@@ -1,6 +1,10 @@
-import cartImg from '../assets/products/shopping-cart.png'
+import { GiShoppingCart } from 'react-icons/gi';
+// import cartImg from '../assets/products/shopping-cart.png'
 
-const NavBar = () => {
+const NavBar = ({carts,setCarts}) => {
+
+ 
+
   return (
     <div className="navbar w-full md:w-10/12 mx-auto ">
       <div className="navbar-start">
@@ -16,7 +20,12 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-3">
-        <img src={cartImg} alt='Cart Image'></img>
+        <div className="relative">
+     <GiShoppingCart className="text-2xl" />
+     {carts.length === 0 ? " " :<span className="absolute -top-2 -right-2 bg-[#6C29F8] text-white text-xs px-1.5 py-0.5 rounded-full">{carts.length}
+     </span> }
+     
+   </div>
         <p className="hidden md:block">Login</p>
         <a className="btn bg-[#6C29F8] rounded-full text-white">Get in Touch</a>
       </div>
