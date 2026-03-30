@@ -1,16 +1,46 @@
-# React + Vite
+## 🔹 Project Description
+**DigiTools** is a fully responsive React-based  product showcase platform designed to demonstrate products, their features, pricing, and cart functionality. Users can browse products, add them to the cart, view cart count in the navbar, and proceed to checkout seamlessly. The design is inspired by modern Figma layouts with focus on usability and responsiveness across all devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📦 Technologies Used
+- **React** - Frontend framework  
+- **Tailwind CSS & DaisyUI** - Styling & responsive design  
+- **React-Toastify** - Alerts for Add to Cart, Remove, and Checkout  
+- **JavaScript (ES6+)** - Logic & state management  
+- **JSON** - Product data storage  
+- **NPM Packege** - To show toastify  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 Features
+1. **Dynamic Product Cards**  
+   - 6–10 products displayed in a 3-column responsive layout  
+   - Each card shows Name, Description, Price, Period, TagType, Features, Icon, and a “Buy Now” button  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Interactive Cart System**  
+   - Add products to cart and live update cart count in Navbar  
+   - Remove individual items from cart  
+   - Proceed to checkout clears the cart instantly  
+   - Alerts using **React-Toastify**  
+   - **Buy Now Button** shows **“Added to Cart”** message after click  
+   - Live **Cart count** in Navbar  
+   - **Proceed to Checkout** clears all cart items  
 
-## Expanding the ESLint configuration
+3. **Responsive Layout & Figma Inspired UI**  
+   - Mobile-first design  
+   - Toggle between Product and Cart section  
+   - Modern sections: Banner, Stats, Steps, Pricing, Footer  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 How it Works
+1. Browse products in a responsive 3-column layout  
+2. Click **Buy Now** to add a product to the cart  
+3. Navbar shows **live cart count**  
+4. Open **Cart** section to view all added products  
+5. Remove individual products using **Remove** button  
+6. Click **Proceed to Checkout** to clear all cart items  
+7. Alerts are displayed using **React-Toastify** for all actions  
+
+---

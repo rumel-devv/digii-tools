@@ -10,8 +10,8 @@ const Pricing = () => {
 
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 mx-auto'>
 
-          <div className="card w-full md:w-85 bg-base-100 shadow-sm">
-  <div className="card-body">
+          <div className="card w-full md:w-85 bg-base-100 shadow-sm ">
+  <div className="card-body ">
     <div className='space-y-1'>
       <h2 className="text-3xl font-bold ">Starter</h2>
       <p>Perfect for getting started</p>
@@ -42,7 +42,7 @@ const Pricing = () => {
   </div>
           </div>
 
-          <div className="card w-full md:w-85 bg-base-100 shadow-sm relative">
+          <div className="card w-full md:w-85 bg-linear-to-r from-[#8F18FA] to-[#9018facf] shadow-sm relative text-white">
   <div className="card-body">
     <span className="badge badge-xs badge-warning absolute -top-3 left-1/2 transform -translate-x-1/2">Most Popular</span>
     <div className='space-y-1'>
@@ -52,33 +52,33 @@ const Pricing = () => {
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>High-resolution image generation</span>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <span >High-resolution image generation</span>
       </li>
       <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
         <span>Customizable style templates</span>
       </li>
       <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
         <span>Batch processing capabilities</span>
       </li>
       <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
         <span>AI-driven image enhancements</span>
       </li>
       <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
         <span>Cloud Sync</span>
       </li>
       <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
         <span>Advanced Analytics</span>
       </li>
    
     </ul>
     <div className="mt-6">
-      <button className="btn bg-[#8F18FA] rounded-full btn-block text-white">Start Pro Trial</button>
+      <button className="btn bg-[white] rounded-full btn-block text-[#9018fae1]">Start Pro Trial</button>
     </div>
   </div>
           </div>

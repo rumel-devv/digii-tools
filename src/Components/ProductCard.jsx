@@ -1,11 +1,14 @@
+import { useState } from "react";
+import { toast } from "react-toastify";
 
 
 const ProductCard = ( {product,carts,setCarts}) => {
  
-
+  const [isBuy,setIsBuy] = useState(false)
   const handleBuyNow = () => {
-        
-         setCarts([...carts,product])
+        setIsBuy(true)
+        setCarts([...carts,product])
+        toast.success('Product added to cart',{autoClose: 3000})
   }
 
     return (
@@ -26,7 +29,7 @@ const ProductCard = ( {product,carts,setCarts}) => {
     </ul>
     <div className="mt-6">
      <button onClick={handleBuyNow} className="btn bg-[#8F18FA] rounded-full btn-block text-white">
-      Buy Now
+       {isBuy ? 'Added to cart' : "Buy Now"}
      </button>
     </div>
   </div>

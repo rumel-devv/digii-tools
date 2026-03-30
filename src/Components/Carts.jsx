@@ -1,6 +1,7 @@
 import React from 'react';
 import { GiShoppingCart } from 'react-icons/gi';
 import { RiDeleteBin6Fill } from 'react-icons/ri';
+import { toast } from 'react-toastify';
 
 const Carts = ({carts,setCarts}) => {
     
@@ -11,6 +12,7 @@ const Carts = ({carts,setCarts}) => {
     const handleDelete = (item) => {
         const filterdProduct = carts.filter(cart => cart.id !== item.id)
         setCarts(filterdProduct)
+         toast.warning('Product deleted from cart',{autoClose: 3000})
     }
 
     const totalPrice = carts.reduce((sum,item) => sum + item.price,0)
