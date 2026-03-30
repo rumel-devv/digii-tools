@@ -23,7 +23,7 @@ const Banner = () => {
            Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.Explore Products</p>
 
           <div className="flex flex-wrap gap-3 pt-3 ">
-            <button className=" px-4 py-2 rounded-2xl font-semibold text-md shadow-xl flex items-center gap-3  text-white bg-[#801EF8]"> Get Unlimited Access  </button>
+            <button className=" px-4 py-2 rounded-2xl font-semibold text-md shadow-xl flex items-center gap-3  text-white bg-[#801EF8]"> Get Unlimited Access <span className="text-xl">→</span> </button>
             <button className=" px-4 py-2 rounded-2xl font-semibold text-md shadow-xl flex items-center gap-1 text-[#801EF8] border border-[#801EF8]"> 
               <img src={demoImg} alt="Demo Image"></img>Watch demo</button>
           </div>
