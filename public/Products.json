@@ -12,7 +12,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "📄"
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Cover letter generator",
       "LinkedIn optimization"
     ],
-    "icon": "🚀"
+    "image": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Multi-language support",
       "Plagiarism-free content"
     ],
-    "icon": "✍️"
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "Analytics dashboard",
       "Multi-platform support"
     ],
-    "icon": "📅"
+    "image": "https://cdn-icons-png.flaticon.com/512/747/747376.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "Custom styles",
       "Unlimited generations"
     ],
-    "icon": "🎨"
+    "image": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Free hosting",
       "Custom domain support"
     ],
-    "icon": "🌐"
+    "image": "https://cdn-icons-png.flaticon.com/512/841/841364.png"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "Automation workflows",
       "Subscriber analytics"
     ],
-    "icon": "📧"
+    "image": "https://cdn-icons-png.flaticon.com/512/561/561127.png"
   },
   {
     "id": 8,
@@ -117,21 +117,21 @@
       "24/7 automation",
       "Integration with apps"
     ],
-    "icon": "🤖"
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
   },
   {
-  "id": 9,
-  "name": "AI Video Editor",
-  "description": "Edit videos automatically with AI\nPerfect for YouTubers and content creators",
-  "price": 30,
-  "period": "monthly",
-  "tag": "new",
-  "tagType": "new",
-  "features": [
-    "Auto subtitles",
-    "Smart scene detection",
-    "One-click export"
-  ],
-  "icon": "🎬"
-}
+    "id": 9,
+    "name": "AI Video Editor",
+    "description": "Edit videos automatically with AI\nPerfect for YouTubers and content creators",
+    "price": 30,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Auto subtitles",
+      "Smart scene detection",
+      "One-click export"
+    ],
+    "image": "https://cdn-icons-png.flaticon.com/512/3039/3039389.png"
+  }
 ]
