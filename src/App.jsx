@@ -23,7 +23,7 @@ const productsPromise = getProducts()
 function App() {
 
   const [active,setActive] = useState('products')
-
+  const [carts,setCarts] = useState([])
   return (
     <> 
       <NavBar></NavBar>
@@ -36,12 +36,12 @@ function App() {
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quam.</p>
  <span className='space-x-2.5'>
    <input onClick={() => setActive('products')} className={`btn rounded-full ${active === 'products' ? 'bg-[#801EF8]' : "" }`} type="radio" name="my_tabs_1" aria-label="Products" defaultChecked/>
-   <input onClick={() => setActive('cart')} className={`btn px-6 py-0.5  rounded-full ${active === 'cart' ? 'bg-[#801EF8]' : "" }`} type="radio" name="my_tabs_1" aria-label="Cart" />
+   <input onClick={() => setActive('cart')} className={`btn px-6 py-0.5  rounded-full ${active === 'cart' ? 'bg-[#801EF8]' : "" }`} type="radio" name="my_tabs_1" aria-label={`Cart (${carts.length})`} />
   
  </span>
 </div>
  
-{active === 'products' ? <Products productsPromise={productsPromise}  ></Products> : <Carts></Carts>}
+{active === 'products' ? <Products productsPromise={productsPromise} carts={carts} setCarts={setCarts}  ></Products> : <Carts carts={carts} setCarts={setCarts} ></Carts>}
 
 
 
