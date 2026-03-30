@@ -3,9 +3,9 @@ import React from 'react';
 const Pricing = () => {
     return (
         <div className="w-full md:w-9/12 mx-auto py-20 space-y-4 ">
-          <div className='text-center'>
-            <h2 className='text-2xl md:text-4xl font-semibold'>Simple, Transparent Pricing</h2>
-            <p className='text-xs'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+          <div className='text-center space-y-2.5'>
+            <h2 className='text-2xl md:text-3xl font-bold'>Simple, Transparent Pricing</h2>
+            <p className='text-xs '>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
           </div> 
 
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 mx-auto'>
